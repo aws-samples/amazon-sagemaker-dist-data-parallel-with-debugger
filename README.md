@@ -12,9 +12,9 @@ This sample contains a Jupyter Notebook that demonstrates how to use a SageMaker
 
 This repository contains
 
-[A Jupyter Notebook](https://github.com/aws-samples/amazon-sagemaker-dist-data-parallel-with-debugger/blob/main/notebooks/tf2_fashion_mnist_custom_smd_debugger.ipynb) to get started
+* [A Jupyter Notebook](https://github.com/aws-samples/amazon-sagemaker-dist-data-parallel-with-debugger/blob/main/notebooks/tf2_fashion_mnist_custom_smd_debugger.ipynb) to get started
 
-[A training script in Python](https://github.com/aws-samples/amazon-sagemaker-dist-data-parallel-with-debugger/blob/main/notebooks/scripts/train_tf2_fashion_mnist_custom_smd.py) that is passed to the training job
+* [A training script in Python](https://github.com/aws-samples/amazon-sagemaker-dist-data-parallel-with-debugger/blob/main/notebooks/scripts/train_tf2_fashion_mnist_custom_smd.py) that is passed to the training job
 
 ## Security
 
