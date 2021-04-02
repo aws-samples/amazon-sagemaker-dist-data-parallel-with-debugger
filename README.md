@@ -1,4 +1,4 @@
-## Distributed training using Amazon SageMaker Distributed Data Parallel library and debug using Amazon SageMaker Debugger
+## Distributed training using Amazon SageMaker Distributed Data Parallel library and debugging using Amazon SageMaker Debugger
 
 This repository contains an example for performing distributed training on Amazon SageMaker using SageMaker's Distributed Data Parallel library and debugging using Amazon SageMaker Debugger.
 
