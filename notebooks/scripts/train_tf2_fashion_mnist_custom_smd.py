@@ -154,7 +154,7 @@ def training_step(model, x_batch_train, y_batch_train, optimizer, loss_fn, train
     with tf.GradientTape() as tape:
         # Run the forward pass of the layer
         logits = model(x_batch_train, training=True)
-        # Compute the loss value for
+        # Compute the loss value
         loss_value = loss_fn(y_batch_train, logits)
     # SMDataParallel: Wrap tf.GradientTape with SMDataParallel's DistributedGradientTape
     tape = dist.DistributedGradientTape(tape)
