@@ -8,6 +8,14 @@ This repository contains an example for performing distributed training on Amazo
 
 This sample contains a Jupyter Notebook that demonstrates how to use a SageMaker optimized TensorFlow 2.x container to perform distributed training on the [Fashion MNIST dataset](https://github.com/zalandoresearch/fashion-mnist) using the [SageMaker Distributed Data Parallel library](https://docs.aws.amazon.com/sagemaker/latest/dg/data-parallel.html) and debug using [SageMaker Debugger](https://docs.aws.amazon.com/sagemaker/latest/dg/train-debugger.html). It also implements a custom training loop i.e. customizes what goes on in the fit() loop. Finally the debugger's output is analyzed. This notebook will take your training script and use SageMaker in script mode.
 
+### Repository structure
+
+This repository contains
+
+[A Jupyter Notebook](https://github.com/aws-samples/amazon-sagemaker-dist-data-parallel-with-debugger/blob/main/notebooks/tf2_fashion_mnist_custom_smd_debugger.ipynb) to get started
+
+[A training script in Python](https://github.com/aws-samples/amazon-sagemaker-dist-data-parallel-with-debugger/blob/main/notebooks/scripts/train_tf2_fashion_mnist_custom_smd.py) that is passed to the training job
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
