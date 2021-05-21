@@ -295,6 +295,7 @@ def save_model(model, model_dir):
 ## The main function
 if __name__ == "__main__":
     logger.info('Executing the main() function...')
+    logger.info('TensorFlow version : {}'.format(tf.__version__))
     # Parse command-line arguments
     args, _ = parse_args()
     # Initialize the SMDataParallel environment
