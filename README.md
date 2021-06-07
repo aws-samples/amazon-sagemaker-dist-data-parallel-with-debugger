@@ -1,6 +1,6 @@
 ## Distributed training using Amazon SageMaker Distributed Data Parallel library and debugging using Amazon SageMaker Debugger
 
-This repository contains an example for performing distributed training on Amazon SageMaker using SageMaker's Distributed Data Parallel library and debugging using Amazon SageMaker Debugger.
+This repository contains an example for performing distributed training on Amazon SageMaker using SageMaker's Distributed Data Parallel library and debugging using Amazon SageMaker Debugger.  The training scripts cover both zero-script-change and with-script-change scenarios for the Debugger.
 
 ### Overview
 
@@ -12,9 +12,11 @@ This example contains a Jupyter Notebook that demonstrates how to use a SageMake
 
 This repository contains
 
-* [A Jupyter Notebook](https://github.com/aws-samples/amazon-sagemaker-dist-data-parallel-with-debugger/blob/main/notebooks/tf2_fashion_mnist_custom_smd_debugger.ipynb) to get started
+* [A Jupyter Notebook](https://github.com/aws-samples/amazon-sagemaker-dist-data-parallel-with-debugger/blob/main/notebooks/tf2_fashion_mnist_custom_sdp_debugger.ipynb) to get started
 
-* [A training script in Python](https://github.com/aws-samples/amazon-sagemaker-dist-data-parallel-with-debugger/blob/main/notebooks/scripts/train_tf2_fashion_mnist_custom_smd.py) that is passed to the training job
+* [A training script in Python for zero-script-change scenario](https://github.com/aws-samples/amazon-sagemaker-dist-data-parallel-with-debugger/blob/main/notebooks/scripts/train_tf2_fashion_mnist_custom_sdp.py) that is passed to the training job
+
+* [A training script in Python for with-script-change scenario](https://github.com/aws-samples/amazon-sagemaker-dist-data-parallel-with-debugger/blob/main/notebooks/scripts/train_tf2_fashion_mnist_custom_sdp_debugger.py) that is passed to the training job
 
 ## Security
 
