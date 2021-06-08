@@ -381,4 +381,6 @@ if __name__ == "__main__":
         evaluate_model(model, x_test, y_test)
         # Save the generated model
         save_model(model, args.model_dir)
+    # Close the SMDebugger hook
+    hook.close()
     logger.info('Completed executing the main() function.')
